@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.hero {
+  background-color: rgb(114, 62, 62);
+  height: 20vh;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 30px;
+
+}
+
+.logo-header {
+  margin-left: 0;
+  width: 200px;
+}
+
+.logo-footer {
+  width: 150px;
+}
