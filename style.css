@@ -1,30 +1,52 @@
 * {
   box-sizing: border-box;
-}
-.hero {
-  background-color: rgb(114, 62, 62);
-  height: 20vh;
-  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 0;
+  
 }
 
-ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
+li, a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 500;
   font-size: 30px;
-
+  
 }
 
 .logo-header {
-  margin-left: 0;
   width: 200px;
+  cursor: pointer;
 }
 
 .logo-footer {
   width: 150px;
+  cursor: pointer;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(240, 8, 124);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5% 0 0;
 }
