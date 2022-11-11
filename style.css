@@ -9,9 +9,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  background: linear-gradient(to right, black, rgb(255, 0, 0));
   padding: 0 5% 0 0;
-  
 }
 
 li, a {
@@ -39,10 +38,11 @@ li, a {
 
 .nav-links li a {
   transition: all 0.3s ease 0s;
+  color: #fff;
 }
 .nav-links li a:hover {
   transition: all 0.3s ease 0s;
-  color: rgb(240, 8, 124);
+  color: rgb(122, 96, 182);
 }
 
 footer  {
@@ -50,6 +50,7 @@ footer  {
   justify-content: space-between;
   align-items: center;
   padding: 0 5% 0 0;
+  background: linear-gradient(to right, black, red);
 }
 
 .footer-li li  {
@@ -66,11 +67,13 @@ footer  {
 .contact-footer h3 {
   font-size: 1.5rem;
   padding: 10px;
+  color: #fff;
 }
 
 .contact-footer p {
   padding: 5px;
   font-size: 1.2rem;
+  color: #fff;
 }
 
 p {
