@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 5% 0 0;
   
 }
@@ -27,12 +28,12 @@ li, a {
 }
 
 .logo-header {
-  width: 200px;
+  width: 150px;
   cursor: pointer;
 }
 
 .logo-footer {
-  width: 150px;
+  width: 140px;
   cursor: pointer;
 }
 
@@ -44,9 +45,30 @@ li, a {
   color: rgb(240, 8, 124);
 }
 
-footer {
+footer  {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5% 0 0;
+}
+
+.footer-li li  {
+  list-style-type: none;
+  padding: 5px;
+  }
+
+.contact-footer {
+  text-align: center;
+  color: black;
+  padding: 50px;
+}
+
+.contact-footer h3 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.contact-footer p {
+  padding: 5px;
+  font-size: 1.2rem;
 }
