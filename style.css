@@ -11,6 +11,8 @@ header {
   align-items: center;
   background: linear-gradient(to right, black, rgb(255, 0, 0));
   padding: 0 5% 0 0;
+  position: sticky;
+  top: 0px;
 }
 
 li, a {
@@ -51,6 +53,8 @@ footer  {
   align-items: center;
   padding: 0 5% 0 0;
   background: linear-gradient(to right, black, red);
+  position: sticky;
+  bottom: 0px;
 }
 
 .footer-li li  {
@@ -97,6 +101,8 @@ h1 {
 .swiper {
   width: 80%;
   height: fit-content;
+  
+  
 }
 
 .swiper-slide img {
