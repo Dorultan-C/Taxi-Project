@@ -120,3 +120,8 @@ h1 {
 .swiper .swiper-pagination-bullet-active {
   background: #fff;
 } 
+
+main {
+  height: 80vh;
+  background-color: aquamarine;
+}
